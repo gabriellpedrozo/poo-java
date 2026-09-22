@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Aquecedor
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Aquecedor\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=minimo\ maximo
+comment1.target=Aquecedor(double,\ double)
+comment1.text=\n\ Construtor\ para\ objetos\ da\ classe\ Aquecedor\n
+comment2.params=
+comment2.target=void\ esquentar()
+comment3.params=
+comment3.target=void\ esfriar()
+comment4.params=
+comment4.target=double\ obterTemperatura()
+comment5.params=novoIncremento
+comment5.target=void\ mudarIncremento(double)
+numComments=6

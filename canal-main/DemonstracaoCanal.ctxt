@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DemonstracaoCanal
+comment0.text=\n\ Fornece\ uma\ demonstra\u00E7\u00E3o\ das\ classe\ Canal\ e\ Inscricao.\n\ \n\ @author\ (seu\ nome)\n\ @version\ (um\ n\u00FAmero\ de\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=DemonstracaoCanal()
+comment1.text=\n\ Construtor\ de\ objetos\ da\ classe\ DemonstracaoCanal\n
+comment2.params=
+comment2.target=void\ demonstrar()
+comment2.text=\n\ Inscreve\ alguns\ membros\ no\ canal,\ e\ ent\u00E3o\ mostra\ quantos\ eles\ s\u00E3o.\n\ Outras\ chamadas\ podem\ ser\ acrescentadas\ se\ novas\ funcionalidades\n\ fora\ implementadas\ na\ classe\ Canal.\n
+numComments=3

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Livro
+comment0.text=\n\ Uma\ classe\ que\ mant\u00E9m\ informa\u00E7\u00E3o\ de\ um\ livro.\n\ Ela\ pode\ ser\ parte\ de\ uma\ aplica\u00E7\u00E3o\ mair\ como\ um\ sistema\n\ de\ uma\ biblioteca,\ por\ exemplo.\n\ \n\ @author\ (Digite\ seu\ nome\ aqui.)\n\ @version\ (Insira\ o\ dia\ de\ hoje\ aqui.)\nresposta\ 1.3\ --\ Sim,\ pois\ nao\ possui\ nenhum\ metodo\ que\ modifica\ o\ atributo\ndos\ objetos\n
+comment1.params=autorLivro\ tituloLivro\ numeropagina
+comment1.target=Livro(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ Define\ os\ atributos\ autor\ e\ o\ t\u00EDtulo\ quando\ este\n\ objeto\ \u00E9\ criado.\n
+comment2.params=
+comment2.target=void\ imprimirAutor()
+comment2.text=\nImprime\ o\ nome\ do\ autor\ no\ terminal\n
+comment3.params=
+comment3.target=void\ imprimirTitulo()
+comment3.text=\nImprime\ o\ titulo\ do\ livro\ no\ terminal\n
+comment4.params=
+comment4.target=int\ obterPagina()
+comment5.params=
+comment5.target=void\ imprimirDetalhes()
+comment6.params=id
+comment6.target=void\ definirNumeroDeChamada(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ obterNumeroDeChamada()
+comment8.params=
+comment8.target=void\ emprestar()
+comment9.params=
+comment9.target=int\ obterEmprestimos()
+numComments=10

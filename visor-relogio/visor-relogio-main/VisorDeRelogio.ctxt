@@ -1,0 +1,19 @@
+#BlueJ class context
+#Sat Sep 05 11:52:39 BRT 2026
+comment0.target=VisorDeRelogio
+comment0.text=\r\n A classe VisorDeRelogio implementa um visor de rel\u00F3gio digital.\r\n O rel\u00F3gio mostra horas e minutos. O rel\u00F3gio marca de 00\:00 (meia-noite)\r\n at\u00E9 23\:59 (um minuto para meia-noite).\r\n \r\n O visor do rel\u00F3gio recebe "tique-taques" (atrav\u00E9s do m\u00E9todo tiqueTaque) a\r\n cada minuto e reage incrementado o valor do visor. Isso \u00E9 feito como \u00E9 em\r\n um rel\u00F3gio, a hora incrementa quando os minutos voltam para zero.\r\n \r\n Traduzido por Julio C\u00E9sar Alves - 2023.09.15\r\n \r\n @author Michael K\u00F6lling and David J. Barnes\r\n @version 2016.02.29\r\n \r\n Realizei o desafio 2.2 explica\u00E7\u00E3o est\u00E1 no come\u00E7o do codigo VisorDeNumero\r\n
+comment1.target=VisorDeRelogio()
+comment1.text=\r\n Construtor para objetos VisorDeRelogio. Este construtor\r\n cria um novo rel\u00F3gio marcando 00\:00.\r\n
+comment2.params=hora minuto segundo
+comment2.target=VisorDeRelogio(int, int, int)
+comment2.text=\r\n Construtor para objetos VisorDeRelogio. Este construtor\r\n cria um novo rel\u00F3gio marcando as horas de acordo com \r\n os par\u00E2metros recebidos.\r\n
+comment3.target=void tiqueTaque()
+comment3.text=\r\n Este m\u00E9todo deveria ser chamado uma vez a cada minuto -\r\n ele faz o visor do rel\u00F3gio passar um minuto.\r\n
+comment4.params=hora minuto segundo
+comment4.target=void definirHora(int, int, int)
+comment4.text=\r\n Define a hora do visor de acordo com o valor de hora e\r\n minuto recebidos por par\u00E2metro.\r\n
+comment5.target=java.lang.String obterHora()
+comment5.text=\r\n Retorna a hora atual do visor no formato HH\:MM\:SS\r\n
+comment6.target=void atualizarVisor()
+comment6.text=\r\n Atualiza a string interna que representa o visor.\r\n
+numComments=7

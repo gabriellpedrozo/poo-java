@@ -1,0 +1,21 @@
+#BlueJ class context
+#Tue Sep 22 16:11:13 BRT 2026
+comment0.target=GerenciadorDeEstoque
+comment0.text=\r\n Gerencia o estoque de uma empresa.\r\n Um estoque \u00E9 formado por zero ou mais produtos.\r\n \r\n Traduzido por Julio C\u00E9sar Alves - 2023.10.10\r\n \r\n @author (seu nome) \r\n @version (a data)\r\n
+comment1.target=GerenciadorDeEstoque()
+comment1.text=\r\n Inicializa o gerenciador de estoque.\r\n
+comment2.params=item
+comment2.target=void adicionarProduto(Produto)
+comment2.text=\r\n Adiciona um produto \u00E0 lista.\r\n @param item O item a ser adicionado.\r\n
+comment3.params=id
+comment3.target=Produto encontrarProduto(int)
+comment3.text=\r\n Tenta encontrar um produto no estoque com o identificador passado.\r\n @return O produto identificado, ou null se n\u00E3o h\u00E1 nenhum produto\r\n         com o identificador passado.\r\n
+comment4.params=id quantidade
+comment4.target=void receberEntrega(int, int)
+comment4.text=\r\n Recebe uma entrega de um produto particular.\r\n Aumenta a quantidade do produto pela quantidade passada.\r\n @param id O identificador do produto.\r\n @param quantidade A quantidade a ser aumentada do produto.\r\n
+comment5.params=id
+comment5.target=int quantidadeEmEstoque(int)
+comment5.text=\r\n Localiza um produto com o identificador passado, e retorna\r\n quantas unidades dele existem no estoque. Retorna zero\r\n se n\u00E3o h\u00E1 nenhum produto com o identificador passado.\r\n @param id O identificador do produto.\r\n @return A quantidade do produto solicitado em estoque.\r\n
+comment6.target=void imprimirDetalhesDosProdutos()
+comment6.text=\r\n Exibe os detalhes de todos os produtos.\r\n
+numComments=7

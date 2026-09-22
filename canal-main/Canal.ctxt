@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Canal
+comment0.text=\n\ Armazena\ os\ detalhes\ das\ inscri\u00E7\u00F5es\ em\ um\ canal\n\ \n\ @author\ (seu\ nome)\n\ @version\ (um\ n\u00FAmero\ de\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=Canal()
+comment1.text=\n\ Construtor\ de\ objetos\ da\ classe\ Canal\n
+comment2.params=inscricao
+comment2.target=void\ inscrever(Inscricao)
+comment2.text=\n\ Adiciona\ um\ novo\ incrito\ na\ lista\ de\ inscritos\ do\ canal.\n\ @param\ inscricao\ O\ objeto\ inscricao\ a\ ser\ adicionado.\n
+comment3.params=
+comment3.target=int\ quantidadeDeInscritos()
+comment3.text=\n\ @return\ O\ n\u00FAmero\ de\ inscritos\ (objetos\ Inscricao)\ no\ canal.\n
+numComments=4

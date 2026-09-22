@@ -1,0 +1,25 @@
+#BlueJ class context
+#Thu Aug 20 16:04:33 BRT 2026
+comment0.target=MaquinaIngressos
+comment1.params=empresa
+comment1.target=MaquinaIngressos(java.lang.String)
+comment1.text=\r\n Cria uma m\u00E1quina que emite ingressos de um dado pre\u00E7o.\r\n Note que o pre\u00E7o deve ser maior que zero, e n\u00E3o tem\r\n nenhuma verifica\u00E7\u00E3o para garantir isso.\r\n
+comment2.params=custoIngresso empresa
+comment2.target=MaquinaIngressos(int, java.lang.String)
+comment3.target=int obterPreco()
+comment3.text=\r\n Retorna o pre\u00E7o do ingresso.\r\n
+comment4.target=int obterSaldo()
+comment4.text=\r\n Retorna a quantidade de dinheiro j\u00E1 inserida para o\r\n pr\u00F3ximo ingresso.\r\n
+comment5.params=quantidade
+comment5.target=void inserirDinheiro(int)
+comment5.text=\r\n Recebe uma quantidade de dinheiro de um cliente.\r\n
+comment6.target=int obterTotal()
+comment6.text=\r\nMetodo de acesso, porque retorna o valor do atributo total \r\n nao modificando o conteudo \r\n
+comment7.target=void esvaziar()
+comment7.text=\r\n Metodo modificador, pois altera o valor do total para zero\r\n modifica o conteudo\r\n
+comment8.target=java.lang.String obterNome()
+comment8.text=\r\n Metodo de acesso, retorna o nome da empresa que vende os ingressos \r\n nao modifica o conteudo\r\n
+comment9.params=nomeComprador
+comment9.target=void imprimirIngresso(java.lang.String)
+comment9.text=\r\n Imprime um ingresso.\r\n Atualiza o total coletado e reduz o saldo para zero.\r\n Adiciona o nome do comprador no ingresso\r\n
+numComments=10

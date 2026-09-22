@@ -1,0 +1,20 @@
+#BlueJ class context
+#Sat Sep 05 10:51:59 BRT 2026
+comment0.target=Email
+comment0.text=\r\n Uma classe que modela uma mensagem simples de e-mail.\r\n A mensagem tem endere\u00E7os remetente e destinat\u00E1rio e uma mensagem string.\r\n \r\n Traduzido por Julio C\u00E9sar Alves. 2023.09.22\r\n \r\n @author David J. Barnes and Michael K\u00F6lling\r\n @version 2016.02.29\r\n
+comment1.params=remetente destinatario assunto mensagem
+comment1.target=Email(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+comment1.text=\r\n Cria uma mensagem de e-mail do remente para o destin\u00E1rio,\r\n contendo a mensagem passada.\r\n @param remetente O remetente desta mensagem.\r\n @param destinatario O destinat\u00E1rio desta mensagem.\r\n @param mensagem O texto da mensagem a ser enviada\r\n
+comment2.params=remetente destinatario assunto mensagem anexo
+comment2.target=Email(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+comment3.target=java.lang.String obterAnexo()
+comment4.target=java.lang.String obterAssunto()
+comment5.target=java.lang.String obterRemetente()
+comment5.text=\r\n @return O remetente desta mensagem.\r\n
+comment6.target=java.lang.String obterDestinatario()
+comment6.text=\r\n @return O destinat\u00E1rio desta mensagem.\r\n
+comment7.target=java.lang.String obterMensagem()
+comment7.text=\r\n @return O texto da mensagem.\r\n
+comment8.target=void imprimir()
+comment8.text=\r\n Imprime esta mensagem de e-mail no terminal de texto.\r\n
+numComments=9

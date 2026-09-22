@@ -1,0 +1,18 @@
+#BlueJ class context
+#Sat Sep 05 11:51:45 BRT 2026
+comment0.target=VisorDeNumero
+comment0.text=\r\n A classe VisorDeNumero representa um vistor digital de n\u00FAmeros que pode\r\n armazenar valores de zero at\u00E9 um dado limite. O limite pode ser definido\r\n quando o vistor \u00E9 criado. Os valores v\u00E3o de zero (inclusive) at\u00E9 limite-1.\r\n Se o visor for usado para os seguintes de um rel\u00F3gio digital, por exemplo,\r\n o limite seria 60, e os valores exibidos seriam de 0 a 59. Quando \r\n incrementado, o visor automaticamente volta para zero se chegar ao limite\r\n definido.\r\n \r\n Traduzido por Julio C\u00E9sar Alves - 2021-09-15\r\n \r\n @author Michael K\u00F6lling and David J. Barnes\r\n @version 2016.02.29\r\n\r\nRealizei o desafio 2.2. Foi poss\u00EDvel implementar o design alternativo, por\u00E9m foi necess\u00E1rio aumentar o acoplamento entre os objetos do c\u00F3digo.\r\nNo exerc\u00EDcio anterior, a rela\u00E7\u00E3o entre horas, minutos e segundos era controlada pelo objeto VisorDeRelogio.\r\nJ\u00E1 neste novo design, essa rela\u00E7\u00E3o passou a ser responsabilidade dos pr\u00F3prios objetos VisorDeNumero, criando uma liga\u00E7\u00E3o entre segundos, minutos e horas.\r\n
+comment1.params=limiteParaZerar
+comment1.target=VisorDeNumero(int)
+comment1.text=\r\n Construtor para objetos da classe VisorDeNumero.\r\n Define o limite no qual o visor volta para zero.\r\n
+comment2.params=proximo
+comment2.target=void definirProximo(VisorDeNumero)
+comment3.target=int obterValor()
+comment3.text=\r\n Retorna o valor atual.\r\n
+comment4.target=java.lang.String obterValorVisor()
+comment4.text=\r\n Retorna o valor a ser exibido (ou seja, o valor atual com uma String\r\n de dois d\u00EDgitos). Se o valor \u00E9 menor que dez, um zero \u00E9 acrescentado\r\n \u00E0 esquerda.\r\n
+comment5.params=novoValor
+comment5.target=void definirValor(int)
+comment5.text=\r\n Define o valor do vistor para o novo valor fornecido. N\u00E3o faz nada,\r\n se o novo valor \u00E9 menor que ou maior que o limite.\r\n
+comment6.target=void incrementar()
+numComments=7

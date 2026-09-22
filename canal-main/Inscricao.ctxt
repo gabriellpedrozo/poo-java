@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Inscricao
+comment0.text=\n\ Guarda\ os\ detalhes\ de\ uma\ inscri\u00E7\u00E3o\ em\ um\ Canal.\n\ \n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2024.10.22\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 2016.02.29\n
+comment1.params=nome\ mes\ ano
+comment1.target=Inscricao(java.lang.String,\ int,\ int)
+comment1.text=\n\ Construtor\ para\ os\ objetos\ da\ classe\ Inscricao.\n\ @param\ nome\ O\ nome\ do\ inscrito.\n\ @param\ mes\ O\ m\u00EAs\ no\ qual\ ele\ se\ inscreveu.\ (1\ ...\ 12)\n\ @param\ ano\ O\ ano\ no\ qual\ ele\ se\ escreveu.\n
+comment2.params=
+comment2.target=java.lang.String\ obterNome()
+comment2.text=\n\ @return\ O\ nome\ do\ inscrito.\n
+comment3.params=
+comment3.target=int\ obterMes()
+comment3.text=\n\ @return\ O\ m\u00EAs\ no\ qual\ a\ inscri\u00E7\u00E3o\ foi\ feita.\n\ \ \ \ \ \ \ \ \ Um\ valor\ entre\ 1\ e\ 12.\n
+comment4.params=
+comment4.target=int\ obterAno()
+comment4.text=\n\ @return\ O\ m\u00EAs\ no\ qual\ a\ inscri\u00E7\u00E3o\ foi\ feita.\n
+comment5.params=
+comment5.target=java.lang.String\ paraString()
+comment5.text=\n\ @return\ Uma\ representa\u00E7\u00E3o\ como\ String\ de\ uma\ inscri\u00E7\u00E3o.\n
+numComments=6

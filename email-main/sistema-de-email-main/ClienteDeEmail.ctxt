@@ -1,0 +1,21 @@
+#BlueJ class context
+#Sat Sep 05 11:04:58 BRT 2026
+comment0.target=ClienteDeEmail
+comment0.text=\r\n Uma classe que modela um cliente de e-mail simples.\r\n O cliente \u00E9 executado por um usu\u00E1rio espec\u00EDfico, e envia e\r\n recebe e-mails atrav\u00E9s de um servidor espec\u00EDfico.\r\n \r\n Traduzido por Julio C\u00E9sar Alves. 2023-09-22\r\n \r\n @author David J. Barnes and Michael K\u00F6lling\r\n @version 2016.02.29\r\n
+comment1.params=servidor usuario
+comment1.target=ClienteDeEmail(ServidorDeEmail, java.lang.String)
+comment1.text=\r\n Cria uma execu\u00E7\u00E3o de cliente de e-mail pelo usu\u00E1rio e \r\n ligado ao servidor passado.\r\n
+comment2.target=Email obterProximoEmail()
+comment2.text=\r\n Retorna a pr\u00F3xima mensagem de e-mail do servidor, se houver.\r\n
+comment3.target=void imprimirProximoEmail()
+comment3.text=\r\n Imprime no terminal de texto a pr\u00F3xima mensagem de e-mail \r\n deste usu\u00E1rio, se houver.\r\n
+comment4.params=remetente
+comment4.target=void imprimirTodosOsEmails(java.lang.String)
+comment5.params=assunto
+comment5.target=void imprimirTodosEmailsPorAssunto(java.lang.String)
+comment6.params=destinatario assunto mensagem
+comment6.target=void enviarEmail(java.lang.String, java.lang.String, java.lang.String)
+comment6.text=\r\n Envia a mensagem passada para o destinat\u00E1rio passado\r\n usando o servidor de e-mail.\r\n @param destinatario O destinat\u00E1rio da mensagem.\r\n @param messagem O texto da mensagem a ser enviada.\r\n
+comment7.params=destinatario assunto mensagem anexo
+comment7.target=void enviarEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+numComments=8

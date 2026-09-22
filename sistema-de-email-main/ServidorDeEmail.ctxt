@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ServidorDeEmail
+comment0.text=\r\n\ Um\ modelo\ simples\ de\ um\ servidor\ de\ e-mail.\ O\ servidor\ \r\n\ consegue\ receber\ mensagens\ de\ e-mail\ para\ guardar\ e\ entreg\u00E1-las\r\n\ aos\ clientes\ sob\ demanda.\r\n\ \ \r\n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves.\ 2023.09.22\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=
+comment1.target=ServidorDeEmail()
+comment1.text=\r\n\ Constr\u00F3i\ um\ servidor\ de\ e-mail.\r\n
+comment2.params=usuario
+comment2.target=int\ quantosEmails(java.lang.String)
+comment2.text=\r\n\ Retorna\ quantas\ mensagens\ de\ e-mail\ est\u00E3o\ esperando\r\n\ para\ serem\ coletadas\ por\ um\ usu\u00E1rio.\r\n\ @param\ usuario\ O\ usu\u00E1rio\ destinat\u00E1rio\ das\ mensagens.\r\n\ @return\ Quantas\ mensagens\ de\ e-mail\ existem.\r\n
+comment3.params=usuario
+comment3.target=Email\ obterProximoEmail(java.lang.String)
+comment3.text=\r\n\ Retorna\ a\ pr\u00F3xima\ mensagem\ de\ e-mail\ para\ um\ usu\u00E1rio\ ou\r\n\ null\ se\ n\u00E3o\ h\u00E1\ nenhuma.\r\n\ @param\ usuario\ O\ usu\u00E1rio\ que\ est\u00E1\ buscando\ sua\ pr\u00F3xima\ mensagem.\r\n\ @return\ O\ pr\u00F3ximo\ e-mail\ do\ usu\u00E1rio.\r\n
+comment4.params=email
+comment4.target=void\ postar(Email)
+comment4.text=\r\n\ Adiciona\ a\ mensagem\ de\ e-mail\ passada\ na\ lista\ de\ mensagens.\r\n\ @param\ email\ O\ e-mail\ a\ ser\ armazenado\ no\ servidor.\r\n
+numComments=5
