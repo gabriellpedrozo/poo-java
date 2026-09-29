@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Produto
+comment0.text=\r\n\ Modela\ alguns\ detalhes\ de\ um\ produto\ vendido\ por\ uma\ empresa.\r\n\ \r\n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2023.10.10\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling.\r\n\ @version\ 2016.02.29\r\n
+comment1.params=id\ nome
+comment1.target=Produto(int,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Produto.\r\n\ A\ quantidade\ inicial\ de\ produto\ em\ estoque\ \u00E9\ zero.\r\n\ @param\ id\ O\ n\u00FAmero\ identificador\ do\ produto.\r\n\ @param\ nome\ O\ nome\ do\ produto.\r\n
+comment2.params=
+comment2.target=int\ obterID()
+comment2.text=\r\n\ @return\ O\ identificador\ do\ produto.\r\n
+comment3.params=
+comment3.target=java.lang.String\ obterNome()
+comment3.text=\r\n\ @return\ O\ nome\ do\ produto.\r\n
+comment4.params=
+comment4.target=int\ obterQuantidade()
+comment4.text=\r\n\ @return\ A\ quantidade\ em\ estoque.\r\n
+comment5.params=
+comment5.target=java.lang.String\ paraString()
+comment5.text=\r\n\ @return\ O\ identificador,\ o\ nome\ e\ a\ quantidade\r\n
+comment6.params=quantidade
+comment6.target=void\ aumentarQuantidade(int)
+comment6.text=\r\n\ Rep\u00F5e\ o\ estoque\ com\ a\ quantidade\ de\ produto\ passada.\r\n\ A\ quantidade\ atual\ \u00E9\ incrementada\ pela\ quantidade\ passada.\r\n\ @param\ quantidade\ O\ n\u00FAmero\ de\ novos\ itens\ adicionados\ ao\ estoque.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Deve\ ser\ maior\ que\ zero.\r\n
+comment7.params=
+comment7.target=void\ venderUm()
+comment7.text=\r\n\ Vende\ um\ destes\ produtos.\r\n\ Um\ erro\ \u00E9\ reportado\ se\ n\u00E3o\ h\u00E1\ produto\ no\ estoque.\r\n
+numComments=8
