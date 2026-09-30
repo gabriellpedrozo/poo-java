@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TokenizadorLinhaLog
+comment0.text=\n\ Quebra\ uma\ linha\ de\ um\ arquivo\ de\ log\ de\ servidor\ web\n\ em\ seus\ campos\ separados.\n\ Atualmente,\ assume-se\ que\ o\ arquivo\ de\ log\ contenha\ apenas\n\ informa\u00E7\u00F5es\ inteiras\ de\ data\ e\ hora.\n\ \n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2026-09-26\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling.\n\ @version\ \ \ \ 2016.02.29\n
+comment1.params=
+comment1.target=TokenizadorLinhaLog()
+comment1.text=\n\ Constr\u00F3i\ um\ TokenizadorLinhaLog.\n
+comment2.params=linhaLog
+comment2.target=EntradaDeLog\ tokenizar(java.lang.String)
+comment2.text=\n\ Tokeniza\ uma\ linha\ de\ log.\ Coloca\ os\ valores\ inteiros\n\ em\ um\ array.\ O\ n\u00FAmero\ de\ tokens\ na\ linha\n\ deve\ ser\ suficiente\ para\ preencher\ o\ array.\n\n\ @param\ linhaLog\ A\ linha\ a\ ser\ tokenizada.\n\ @param\ linhaDados\ Onde\ armazenar\ os\ valores.\n
+numComments=3

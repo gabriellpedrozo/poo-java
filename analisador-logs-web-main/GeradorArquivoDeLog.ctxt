@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GeradorArquivoDeLog
+comment0.text=\n\ Uma\ classe\ para\ criar\ arquivos\ de\ log\ com\ dados\ aleat\u00F3rios.\n\ \n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2026-09-26\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ \ \ \ 2016.02.29\n
+comment1.params=
+comment1.target=GeradorArquivoDeLog()
+comment1.text=\n\ Cria\ arquivos\ de\ log.\n
+comment2.params=nomeArquivo\ numeroEntradas
+comment2.target=boolean\ criarArquivo(java.lang.String,\ int)
+comment2.text=\n\ Cria\ um\ arquivo\ de\ entradas\ de\ log\ aleat\u00F3rias.\n\ @param\ nomeArquivo\ O\ arquivo\ para\ escrita.\n\ @param\ numeroEntradas\ Quantidade\ de\ entradas.\n\ @return\ true\ em\ caso\ de\ sucesso,\ false\ caso\ contr\u00E1rio.\n
+comment3.params=
+comment3.target=EntradaDeLog\ criarEntrada()
+comment3.text=\n\ Cria\ uma\ \u00FAnica\ entrada\ (aleat\u00F3ria)\ para\ um\ arquivo\ de\ log.\n\ @return\ Uma\ entrada\ de\ log\ contendo\ dados\ aleat\u00F3rios.\n
+numComments=4

@@ -1,0 +1,22 @@
+#BlueJ class context
+#Wed Sep 30 14:34:48 BRT 2026
+comment0.target=AnalisadorDeLog
+comment0.text=\r\n L\u00EA dados de servidor web e analisa padr\u00F5es de acesso por hora.\r\n \r\n Traduzido por Julio C\u00E9sar Alves - 2026-09-26\r\n \r\n @author David J. Barnes and Michael K\u00F6lling.\r\n @version    2016.02.29\r\n
+comment1.target=AnalisadorDeLog()
+comment1.text=\r\n Cria um objeto para analisar acessos web por hora.\r\n
+comment10.target=void imprimirContagensPorDia()
+comment11.target=int diaMaisOcupado()
+comment12.target=int diaMaisTranquilo()
+comment2.params=nomeDoArquivo
+comment2.target=AnalisadorDeLog(java.lang.String)
+comment3.target=void analisarDadosPorHora()
+comment3.text=\r\n Analisa os dados de acesso por hora do arquivo de log.\r\n
+comment4.target=void imprimirContagensPorHora()
+comment4.text=\r\n Imprime as contagens por hora.\r\n Elas devem ter sido definidas com uma chamada\r\n anterior de analisarDadosPorHora.\r\n
+comment5.target=void imprimirDados()
+comment5.text=\r\n Imprime as linhas de dados lidas pelo LeitorArquivoLog.\r\n
+comment6.target=int numeroDeAcessos()
+comment7.target=int horaMaisOcupada()
+comment8.target=int horaMaisTranquila()
+comment9.target=int duasHorasSeguidasMaisOcupadas()
+numComments=13

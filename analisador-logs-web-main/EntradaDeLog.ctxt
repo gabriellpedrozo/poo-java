@@ -1,0 +1,24 @@
+#BlueJ class context
+#Wed Sep 30 14:33:29 BRT 2026
+comment0.target=EntradaDeLog
+comment0.text=\r\n Armazena os dados de uma \u00FAnica linha de um\r\n arquivo de log de servidor web.\r\n Campos individuais ficam dispon\u00EDveis por meio\r\n de m\u00E9todos de acesso como obterHora() e obterMinuto().\r\n \r\n Traduzido por Julio C\u00E9sar Alves - 2026-09-26\r\n \r\n @author David J. Barnes and Michael K\u00F6lling.\r\n @version    2016.02.29\r\n
+comment1.params=ano mes dia hora minuto
+comment1.target=EntradaDeLog(int, int, int, int, int)
+comment1.text=\r\n Cria uma EntradaDeLog a partir dos componentes individuais.\r\n @param ano O ano\r\n @param mes O m\u00EAs (1-12)\r\n @param dia O dia (1-31)\r\n @param hora A hora (0-23)\r\n @param minuto O minuto (0-59)\r\n
+comment2.target=int obterDiaDaSemana()
+comment3.target=int obterHora()
+comment3.text=\r\n Retorna a hora.\r\n @return O campo de hora da linha de log.\r\n
+comment4.target=int obterMinuto()
+comment4.text=\r\n Retorna o minuto.\r\n @return O campo de minuto da linha de log.\r\n
+comment5.target=java.lang.String toString()
+comment5.text=\r\n Cria uma representa\u00E7\u00E3o textual dos dados.\r\n Ela n\u00E3o \u00E9 necessariamente id\u00EAntica ao\r\n texto da linha de log original.\r\n @return Uma string representando os dados desta entrada.\r\n
+comment6.params=buffer valor
+comment6.target=void incluirValor(java.lang.StringBuffer, int)
+comment7.params=outraEntrada
+comment7.target=int compareTo(EntradaDeLog)
+comment7.text=\r\n Compara a combina\u00E7\u00E3o de data/hora desta entrada de log\r\n com outra.\r\n @param outraEntrada A outra entrada para compara\u00E7\u00E3o.\r\n @return Valor negativo se esta entrada vier antes da outra.\r\n         Valor positivo se esta entrada vier depois da outra.\r\n         Zero se as entradas forem iguais.\r\n
+comment8.target=java.util.Calendar obterQuando()
+comment8.text=\r\n Retorna o objeto Calendar que representa este evento.\r\n @return O Calendar deste evento.\r\n
+comment9.target=void definirQuando()
+comment9.text=\r\n Cria um objeto Calendar equivalente a partir dos valores de dados.\r\n
+numComments=10
